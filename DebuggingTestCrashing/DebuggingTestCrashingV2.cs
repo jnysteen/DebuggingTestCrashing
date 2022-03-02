@@ -21,7 +21,7 @@ public class DebuggingTestCrashingV2
         int p10
     )
     {
-        Console.WriteLine("test crashes");
+        Console.WriteLine("test does not crash");
     }
     
     [Theory]
@@ -60,6 +60,6 @@ public class DebuggingTestCrashingV2
         int p12
     )
     {
-        Console.WriteLine("test crashes");
+        Console.WriteLine("test does not crash");
     }
 }
