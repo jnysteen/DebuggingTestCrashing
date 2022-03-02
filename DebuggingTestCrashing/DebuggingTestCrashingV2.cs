@@ -45,7 +45,7 @@ public class DebuggingTestCrashingV2
     
     [Theory]
     [InlineData(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1)]
-    public async Task TwelveParams_DoesNotCrash(
+    public async Task TwelveParams_DoesNotCrashWhenRunAlone(
         int p1,
         int p2,
         int p3,

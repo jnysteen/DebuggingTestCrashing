@@ -13,13 +13,13 @@ I have only been able to reproduce this issue on Macbook Pros with M1 chips.
 ### .NET 
 
 ```sh
-dotnet --list-sdks
+$dotnet --list-sdks
 6.0.200 [/usr/local/share/dotnet/sdk]
 
-dotnet --version
+$dotnet --version
 6.0.200
 
-dotnet --info
+$dotnet --info
 .NET SDK (reflecting any global.json):
  Version:   6.0.200
  Commit:    4c30de7899
@@ -46,17 +46,17 @@ Host (useful for support):
 
 ### Hardware
 
-Model Name:	MacBook Pro
-Model Identifier:	MacBookPro18,1
-Chip:	Apple M1 Pro
-Total Number of Cores:	10 (8 performance and 2 efficiency)
-Memory:	32 GB
-System Firmware Version:	7429.81.3
-OS Loader Version:	7429.81.3
+* Model Name:	MacBook Pro
+* Model Identifier:	MacBookPro18,1
+* Chip:	Apple M1 Pro
+* Total Number of Cores:	10 (8 performance and 2 efficiency)
+* Memory:	32 GB
+* System Firmware Version:	7429.81.3
+* OS Loader Version:	7429.81.3
 
 ### OS
 
 System Software Overview:
 
-System Version:	macOS 12.2.1 (21D62)
-Kernel Version:	Darwin 21.3.0
+* System Version:	macOS 12.2.1 (21D62)
+* Kernel Version:	Darwin 21.3.0
