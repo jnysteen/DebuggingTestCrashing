@@ -1,6 +1,6 @@
 # Simple xUnit tests that fails
 
-This project contains very simple tests, that seemingly only fail due to the amount of parameters.
+This project contains very simple tests, with some failing and some succeeding. The determining factor of success seems to relate to the amount of parameters on the test methods.
 
 Diagnostic files (in `diagnostic-files`) produced by running:
 `dotnet test --blame-crash --blame-crash-dump-type full --diag diag.log --configuration Release -l "console;verbosity=detailed" --logger "trx;LogFileName=results.trx"`
