@@ -60,6 +60,6 @@ public class DebuggingTestCrashingV2
         int p12
     )
     {
-        Console.WriteLine("test does not crash");
+        Console.WriteLine("test does not crash when run alone, fails when run with others");
     }
 }
