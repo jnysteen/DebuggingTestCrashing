@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<TestSequence>
+  <Test Name="DebuggingTestCrashing.DebuggingTestCrashingV2.TwelveParams_DoesNotCrash" DisplayName="DebuggingTestCrashing.DebuggingTestCrashingV2.TwelveParams_DoesNotCrash(p1: 1, p2: 1, p3: 1, p4: 1, p5: 1, p6: 1, p7: 1, p8: 1, p9: 1, p10: 1, p11: 1, p12: 1)" Source="/Users/jn/git/private/DebuggingTestCrashing/DebuggingTestCrashing/bin/Release/net6.0/DebuggingTestCrashing.dll" Completed="False" />
+  <Test Name="DebuggingTestCrashing.DebuggingTestCrashing.Params11Ints2DoublesCrashes2" DisplayName="DebuggingTestCrashing.DebuggingTestCrashing.Params11Ints2DoublesCrashes2(p1: 1, p2: 1, p3: 1, p4: 1, p5: 1, p6: 1, p7: 1, p8: 1, p9: 1, p10: 1, p11: 1, p12: 1, p13: 1)" Source="/Users/jn/git/private/DebuggingTestCrashing/DebuggingTestCrashing/bin/Release/net6.0/DebuggingTestCrashing.dll" Completed="False" />
+</TestSequence>

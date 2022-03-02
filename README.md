@@ -1,4 +1,14 @@
+# Simple xUnit tests that fails
+
+This project contains very simple tests, that seemingly only fail due to the amount of parameters.
+
+Diagnostic files (in `diagnostic-files`) produced by running:
+`dotnet test --blame-crash --blame-crash-dump-type full --diag diag.log --configuration Release -l "console;verbosity=detailed" --logger "trx;LogFileName=results.trx"`
+
+
 ## System details
+
+I have only been able to reproduce this issue on Macbook Pros with M1 chips.
 
 ### .NET 
 
